@@ -25,12 +25,13 @@ body{
     background-image: url(/new\ year.jpg);
     background-size: cover;
     background-position: center center;
+    background-attachment: fixed;
 
 }
 h1{
     font-family: 'Caveat', cursive;
     font-weight: cold;
-    font-size: 7rem;
+    font-size: 8rem;
     margin-top: -11rem;
     margin-bottom: 3rem;
     background-color: rgba(0, 0, 0, 0.7);
@@ -41,13 +42,13 @@ h1{
 h2{
     font-family: 'Dancing Script', cursive;
     font-weight: bold;
-    font-size: 3rem;
+    font-size: 4rem;
 
 }
 span{
     font-family: 'Caveat', cursive;
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 3rem;
 
 }
 .container{
