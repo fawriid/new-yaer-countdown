@@ -1,0 +1,74 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+/* font-family: 'Dancing Script', cursive; */
+/* numbers */
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap');
+/* font-family: 'Caveat', cursive; */
+/* sentences*/
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+    min-height: 100vh;
+    background-image: url(/new\ year.jpg);
+    background-size: cover;
+    background-position: center center;
+
+}
+h1{
+    font-family: 'Caveat', cursive;
+    font-weight: cold;
+    font-size: 7rem;
+    margin-top: -11rem;
+    margin-bottom: 3rem;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 3rem;
+    border-radius: 2rem;
+    color: #fff;
+}
+h2{
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    font-size: 3rem;
+
+}
+span{
+    font-family: 'Caveat', cursive;
+    font-weight: bold;
+    font-size: 2rem;
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+}
+.time__wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.time__wrapper div{
+    margin: 0 3rem;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 3rem;
+    border-radius: 2rem;
+    color: #fff;
+}
